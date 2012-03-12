@@ -12,7 +12,7 @@ use warnings;
 
 package ORDB::CPAN::Mageia;
 {
-  $ORDB::CPAN::Mageia::VERSION = '1.120720';
+  $ORDB::CPAN::Mageia::VERSION = '1.120721';
 }
 # ABSTRACT: an ORM for CPAN packages available in Mageia
 
@@ -33,7 +33,7 @@ ORDB::CPAN::Mageia - an ORM for CPAN packages available in Mageia
 
 =head1 VERSION
 
-version 1.120720
+version 1.120721
 
 =head1 SYNOPSIS
 

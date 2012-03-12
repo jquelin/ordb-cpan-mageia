@@ -1,4 +1,7 @@
 Revision history for ORDB-CPAN-Mageia
 
+1.120721  2012-03-12 10:38:49 Europe/Paris
+ - fix ordb::cpan::mageia::module package name
+
 1.120720  2012-03-12 10:21:36 Europe/Paris
  - initial version, copied from ORDB-CPAN-Mandriva

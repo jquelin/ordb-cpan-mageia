@@ -42,8 +42,12 @@
    },
    "provides" : {
       "ORDB::CPAN::Mageia" : {
+         "file" : "lib/ORDB/CPAN/Mageia.pm",
+         "version" : "1.120721"
+      },
+      "ORDB::CPAN::Mageia::Module" : {
          "file" : "lib/ORDB/CPAN/Mageia/Module.pm",
-         "version" : "1.120720"
+         "version" : "1.120721"
       }
    },
    "release_status" : "stable",
@@ -59,7 +63,7 @@
          "web" : "http://github.com/jquelin/ordb-cpan-mageia"
       }
    },
-   "version" : "1.120720",
+   "version" : "1.120721",
    "x_Dist_Zilla" : {
       "plugins" : [
          {

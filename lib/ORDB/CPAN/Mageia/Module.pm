@@ -10,9 +10,9 @@ use 5.010;
 use strict;
 use warnings;
 
-package ORDB::CPAN::Mageia;
+package ORDB::CPAN::Mageia::Module;
 {
-  $ORDB::CPAN::Mageia::VERSION = '1.120720';
+  $ORDB::CPAN::Mageia::Module::VERSION = '1.120721';
 }
 # ABSTRACT: orlite for module table in database
 
@@ -28,11 +28,11 @@ package ORDB::CPAN::Mageia;
 
 =head1 NAME
 
-ORDB::CPAN::Mageia - orlite for module table in database
+ORDB::CPAN::Mageia::Module - orlite for module table in database
 
 =head1 VERSION
 
-version 1.120720
+version 1.120721
 
 =head1 DESCRIPTION
 
