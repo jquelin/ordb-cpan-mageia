@@ -6,7 +6,7 @@ use warnings;
 
 use ORDB::CPAN::Mageia;
 
-my $nbmodules = ORDB::CPAN::Mageia->count;
+my $nbmodules = ORDB::CPAN::Mageia::Module->count;
 say "$nbmodules modules found";
 
 exit;
