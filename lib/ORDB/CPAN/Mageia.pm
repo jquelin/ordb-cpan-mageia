@@ -5,20 +5,10 @@ use warnings;
 package ORDB::CPAN::Mageia;
 # ABSTRACT: an ORM for CPAN packages available in Mageia
 
-use ORLite::Mirror 1.12 ();
-
-sub import {
-    my $class = shift;
-
-    # prevent double-initialisation
-    $class->can('orlite') or
-    ORLite::Mirror->import( {
-        url    => 'http://pkgcpan.mageia.org/cpan_Mageia.db',
-        maxage => 24 * 60 * 60,
-    } );
-
-    return 1;
-}
+use ORLite::Mirror {
+    url    => 'http://pkgcpan.mageia.org/cpan_Mageia.db',
+    maxage => 24 * 60 * 60,
+};
 
 
 
