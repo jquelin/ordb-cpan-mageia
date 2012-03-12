@@ -2,7 +2,7 @@ use 5.010;
 use strict;
 use warnings;
 
-package ORDB::CPAN::Mageia;
+package ORDB::CPAN::Mageia::Module;
 # ABSTRACT: orlite for module table in database
 
 # -- attributes
