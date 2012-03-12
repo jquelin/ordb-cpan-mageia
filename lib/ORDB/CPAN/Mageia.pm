@@ -1,8 +1,19 @@
+#
+# This file is part of ORDB-CPAN-Mageia
+#
+# This software is copyright (c) 2012 by Jerome Quelin.
+#
+# This is free software; you can redistribute it and/or modify it under
+# the same terms as the Perl 5 programming language system itself.
+#
 use 5.010;
 use strict;
 use warnings;
 
 package ORDB::CPAN::Mageia;
+{
+  $ORDB::CPAN::Mageia::VERSION = '1.120720';
+}
 # ABSTRACT: an ORM for CPAN packages available in Mageia
 
 use ORLite::Mirror {
@@ -12,22 +23,17 @@ use ORLite::Mirror {
 
 
 1;
-__END__
 
-=for Pod::Coverage
-    dsn
-    dbh
-    connect(ed)?
-    begin
-    do
-    iterate
-    orlite
-    pragma
-    prepare
-    rollback(_begin)?
-    select(all|col|row)_.*
-    sqlite
 
+=pod
+
+=head1 NAME
+
+ORDB::CPAN::Mageia - an ORM for CPAN packages available in Mageia
+
+=head1 VERSION
+
+version 1.120720
 
 =head1 SYNOPSIS
 
@@ -36,7 +42,6 @@ __END__
     my $cpandists = ORDB::CPAN::Mageia->selectcol_arrayref(
         'SELECT DISTINCT dist FROM module ORDER BY dist'
     );
-
 
 =head1 DESCRIPTION
 
@@ -49,11 +54,22 @@ what you want with the data itself.
 
 Check the F<examples> directory for some ideas on how to use it.
 
+=for Pod::Coverage dsn
+    dbh
+    connect(ed)?
+    begin
+    do
+    iterate
+    orlite
+    pragma
+    prepare
+    rollback(_begin)?
+    select(all|col|row)_.*
+    sqlite
 
 =head1 METHODS
 
 Refere to L<ORLite> module, section B<ROOT PACKAGE METHODS>.
-
 
 =head1 SEE ALSO
 
@@ -82,3 +98,20 @@ L<http://annocpan.org/dist/ORDB-CPAN-Mageia>
 L<http://cpanratings.perl.org/d/ORDB-CPAN-Mageia>
 
 =back
+
+=head1 AUTHOR
+
+Jerome Quelin
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2012 by Jerome Quelin.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
+
+
+__END__
+
