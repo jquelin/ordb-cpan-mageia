@@ -20,7 +20,7 @@ my %module_build_args = (
     "Jerome Quelin"
   ],
   "dist_name" => "ORDB-CPAN-Mageia",
-  "dist_version" => "1.120721",
+  "dist_version" => "1.121690",
   "license" => "perl",
   "module_name" => "ORDB::CPAN::Mageia",
   "recommends" => {},

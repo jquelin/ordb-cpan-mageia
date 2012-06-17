@@ -12,7 +12,7 @@ use warnings;
 
 package ORDB::CPAN::Mageia::Module;
 {
-  $ORDB::CPAN::Mageia::Module::VERSION = '1.120721';
+  $ORDB::CPAN::Mageia::Module::VERSION = '1.121690';
 }
 # ABSTRACT: orlite for module table in database
 
@@ -32,7 +32,7 @@ ORDB::CPAN::Mageia::Module - orlite for module table in database
 
 =head1 VERSION
 
-version 1.120721
+version 1.121690
 
 =head1 DESCRIPTION
 

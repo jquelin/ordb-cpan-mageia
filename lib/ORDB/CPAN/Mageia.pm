@@ -12,12 +12,12 @@ use warnings;
 
 package ORDB::CPAN::Mageia;
 {
-  $ORDB::CPAN::Mageia::VERSION = '1.120721';
+  $ORDB::CPAN::Mageia::VERSION = '1.121690';
 }
 # ABSTRACT: an ORM for CPAN packages available in Mageia
 
 use ORLite::Mirror {
-    url    => 'http://pkgcpan.mageia.org/cpan_Mageia.db',
+    url    => 'http://perl.mageia.org/cpan_Mageia.db',
     maxage => 24 * 60 * 60,
 };
 
@@ -33,7 +33,7 @@ ORDB::CPAN::Mageia - an ORM for CPAN packages available in Mageia
 
 =head1 VERSION
 
-version 1.120721
+version 1.121690
 
 =head1 SYNOPSIS
 
