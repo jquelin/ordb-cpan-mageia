@@ -6,7 +6,7 @@ package ORDB::CPAN::Mageia;
 # ABSTRACT: an ORM for CPAN packages available in Mageia
 
 use ORLite::Mirror {
-    url    => 'http://pkgcpan.mageia.org/cpan_Mageia.db',
+    url    => 'http://perl.mageia.org/cpan_Mageia.db',
     maxage => 24 * 60 * 60,
 };
 
